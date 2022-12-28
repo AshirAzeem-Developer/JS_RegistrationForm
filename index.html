@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JS ASSIGNMENT FORM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <div class="container align-item-center py-1   ">
+        <div class="row justify-content-center p-5  mt-5">
+            <h1 class="display-1 fw-bold text-center p-3">Information Form</h1>
+
+            <input type="text" name="FirstName" id="FirstName" class="p-3 m-2 rounded shadow border-0  fw-bold"
+                placeholder="First Name" required>
+
+            <input type="text" name="LastName" id="LastName" class="p-3 m-2 rounded shadow border-0 fw-bold"
+                placeholder="Last Name">
+
+            <input type="email" name="email" id="email" class="p-3 m-2 rounded shadow border-0 fw-bold"
+                placeholder="Email" required>
+
+            <input type="password" name="" id="password" class="p-3 m-2 rounded shadow border-0 fw-bold"
+                placeholder="Password" required>
+
+            <input type="number" name="NIC" id="NIC" class="p-3 m-2 rounded shadow border-0 fw-bold"
+                placeholder="CNIC:4225075849828" maxlength="13" required>
+
+            <input type="number" name="PhoneNo" id="PhoneNo" class="p-3 m-2 rounded shadow border-0 fw-bold"
+                placeholder="Phone Number" maxlength="11" required>
+
+
+            <input type="text" name="LastQualification" id="LastQualification"
+                class="p-3 m-2 rounded shadow border-0 fw-bold" placeholder="Last Qualification" maxlength="11"
+                required>
+            <input type="text" name="AdmissionRequiredIn" id="AdmissionRequiredIn"
+                class="p-3 m-2 rounded shadow border-0 fw-bold" placeholder="Admission Required In" maxlength="11"
+                required>
+
+            <button type="button" class="btn btn-dark p-3 m-2 fw-bold" onclick="saveTask() ">SUMBIT</button>
+        </div>
+    </div>
+
+
+    <div class="text-black fw-bold" id="Data">
+        <ol id="parent"></ol>
+
+    </div>
+
+
+
+
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>

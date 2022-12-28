@@ -1,0 +1,14 @@
+body{
+    background-image:linear-gradient(to right,#cc2b5e,#753a88);
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+input{
+    width: 50%   !important;
+    
+}
+button{
+    width: 50%   !important;
+
+}
